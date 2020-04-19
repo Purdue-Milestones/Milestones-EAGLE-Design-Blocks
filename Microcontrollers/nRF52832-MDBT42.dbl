@@ -2316,9 +2316,9 @@ none / P0.02 / pin15 / D2_or_A0
 none / P0.03 / pin16 / D3_or_A1
 none / P0.04 / pin17 / D4_or_A2
 none / P0.05 / pin18 / D5_or_A3
-TXD / P0.06 / pin19 / D6 / (could be RXD and D8...documentation is unclear)
+TXD / P0.06 / pin19 / D6 / but reserved for Serial communication and programming
 none / P0.07 / pin20 / D7
-RXD / P0.08 / pin21 / D8 / (could be TXD and D6...documentation is unclear)
+RXD / P0.08 / pin21 / D8 / but reserved for Serial communication and programming
 NFC1 / P0.09 / pin22 / D9
 NFC2 / P0.10 / pin23 / D10</text>
 <text x="119.38" y="27.94" size="1.27" layer="97">SPECIAL / PORT / PIN ON PACKAGE / GPIO(D_or_A) / Comments
@@ -2330,7 +2330,7 @@ RESET / P0.21 / pin35 / reserved-not available for general GPIO
 DFU / P0.20 / pin34 / reserved-not available for general GPIO
 LED2 / P0.19 / pin33 / reserved for some of Adafruit's BLE functions (D19)
 SWO / P0.18 / PIN32 / reserved-not available for general GPIO
-LED1 / P0.17 / pin31 / D17
+LED1 / P0.17 / pin31 / reserved for some Adafruit bootloader things
 none / P0.16 / pin30 / D16 / also TD(1), but I don't know what that means
 none / P0.15 / pin29 / D15 / also TD(2), but I don't know what that means
 MISO / P0.14 / pin28 / D14 / also TD(3), but I don't know what that means
@@ -2360,8 +2360,12 @@ PIN_DFU / P0.20: If this pin is detected to be
 at GND level at startup, the board will enter
 a special serial bootloader mode and will
 not execute any user code, going straight
-into bootloader mode.</text>
-<text x="-27.94" y="-15.24" size="1.27" layer="97">PIN_DFU / P0.20: If this pin is detected to be
+into bootloader mode.
+
+LED1 also seems to be reserved for some
+Adafruit bootloader things, but could probably
+be repurposed pretty easily.</text>
+<text x="-30.48" y="-15.24" size="1.27" layer="97">PIN_DFU / P0.20: If this pin is detected to be
 at GND level at startup, the board will enter
 a special serial bootloader mode and will
 not execute any user code, going straight
@@ -2386,7 +2390,7 @@ pin during the bootloader phase. FRST
 does not work with Mynewt bootloader !!
 
 From: https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide?view=all</text>
-<text x="-27.94" y="33.02" size="1.524" layer="97" font="vector" ratio="15">Additional notes for
+<text x="-30.48" y="33.02" size="1.524" layer="97" font="vector" ratio="15">Additional notes for
 advanced users only</text>
 </plain>
 <instances>
