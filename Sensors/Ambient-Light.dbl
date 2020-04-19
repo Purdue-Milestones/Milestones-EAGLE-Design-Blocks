@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <designblock>
-<description>Ambient Light Sensor</description>
+<description>&lt;h4&gt;Ambient Light Sensor&lt;/h4&gt;</description>
 <attributes>
 <attribute name="AIRWIRES" value="YES"/>
 <attribute name="BOARDSIZE" value="837 x 510 mil"/>
+<attribute name="DIGIKEY" value="1830-IN-S63DTLSCT-ND"/>
 <attribute name="LAYERS" value="1: 1"/>
+<attribute name="MFN" value="IN-S63DTLS"/>
+<attribute name="MFN_MANUFACTURER" value="Inolux"/>
 </attributes>
 <drawings>
 <drawing>
@@ -820,6 +823,28 @@ the desired dynamic range.</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,241.3,71.12,3V,3.3V,,,,"/>
+<approved hash="102,1,198.12,83.82,USB,VBUS,,,,"/>
+<approved hash="102,1,63.5,149.86,OUT,3.3V,,,,"/>
+<approved hash="104,1,91.44,25.4,X1,VCC,3.3V,,,"/>
+<approved hash="104,1,167.64,147.32,U3,VDD,VBUS,,,"/>
+<approved hash="104,1,193.04,142.24,U3,VSS,GND,,,"/>
+<approved hash="104,1,43.18,149.86,U2,IN,VIN,,,"/>
+<approved hash="202,1,165.1,73.66,U4G$1,RI,,,,"/>
+<approved hash="104,1,134.62,99.06,U4G$1,VIO,3.3V,,,"/>
+<approved hash="104,1,134.62,96.52,U4G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,134.62,93.98,U4G$1,REGIN,3.3V,,,"/>
+<approved hash="202,1,165.1,71.12,U4G$1,DCD,,,,"/>
+<approved hash="202,1,165.1,66.04,U4G$1,DSR,,,,"/>
+<approved hash="202,1,165.1,55.88,U4G$1,CTS,,,,"/>
+<approved hash="104,1,106.68,101.6,U4G$2,TP,GND,,,"/>
+<approved hash="115,1,130.071,89.431,FRAME1,,,,,"/>
+<approved hash="115,1,68.8171,21.7212,JP1,,,,,"/>
+<approved hash="115,1,65.8029,18.9188,JP2,,,,,"/>
+<approved hash="115,1,93.9558,88.9,TP3,,,,,"/>
+<approved hash="115,1,93.9558,86.36,TP4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <drawing>
