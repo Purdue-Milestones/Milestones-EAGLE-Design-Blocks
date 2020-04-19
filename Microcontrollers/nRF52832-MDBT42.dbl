@@ -2329,7 +2329,7 @@ SWCLK / none / pin36 / reserved-not available for general GPIO
 RESET / P0.21 / pin35 / reserved-not available for general GPIO
 DFU / P0.20 / pin34 / reserved-not available for general GPIO
 LED2 / P0.19 / pin33 / reserved for some of Adafruit's BLE functions (D19)
-SWO / P0.18 / PIN32 / rreserved-not available for general GPIO
+SWO / P0.18 / PIN32 / reserved-not available for general GPIO
 LED1 / P0.17 / pin31 / D17
 none / P0.16 / pin30 / D16 / also TD(1), but I don't know what that means
 none / P0.15 / pin29 / D15 / also TD(2), but I don't know what that means

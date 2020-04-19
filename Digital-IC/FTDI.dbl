@@ -1643,6 +1643,13 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="81.28" y="40.64" size="1.27" layer="97">TXD goes to RX on the other device
+RXD goes to TX on the other device</text>
+<text x="101.6" y="-7.62" size="1.27" layer="97">I don't remember if CTS needs
+to be grounded or left floating
+so here's a jumper to ground
+so it can be configued either
+way dynamically.</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="53.34" y="25.4" smashed="yes">
