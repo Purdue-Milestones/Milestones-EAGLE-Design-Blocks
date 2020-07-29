@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <designblock>
 <description>&lt;h4&gt;&lt;p&gt;U-Blox SAM-M8Q GPS Module&lt;/p&gt;&lt;/h4&gt;</description>
 <attributes>
@@ -1693,6 +1693,14 @@ interface settings to easily fit to customer applications.&lt;/p&gt;</descriptio
 Battery Charge Rate: 1mA MAX
 Voff: 2.0V
 72 hours charge time from 2.0-3.1V</text>
+<text x="134.62" y="-5.08" size="1.778" layer="97">GPS Basics
+https://learn.sparkfun.com/tutorials/gps-basics
+
+SparkFun GPS Breakout Product Page
+https://www.sparkfun.com/products/15210
+
+SparkFun GPS Hardware Guide
+https://learn.sparkfun.com/tutorials/sparkfun-gps-breakout-zoe-m8q-and-sam-m8q-hookup-guide</text>
 </plain>
 <instances>
 <instance part="R4" gate="G$1" x="190.5" y="55.88" smashed="yes">
